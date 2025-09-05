@@ -1,1 +1,1 @@
-<video src="assets/simulation-video.mp4" controls width="600"></video>
+<video src="simulation-video.mp4" controls width="600"></video>
