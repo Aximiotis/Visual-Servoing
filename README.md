@@ -148,3 +148,4 @@ TAKEOFF 10
    - Ένα από τα αρχεία στον φάκελο Simulations που αφορούν την αυτόνομη παρακολούθηση και πλοήγηση του αντικειμένουν μέσω της κάμερας του drone 
    - my_package/my_package/object_trajectory για να μετακινήσεις το αντικείμενο
    - my_package/my_package/object_tracking για να παρακολουθείς το σφάλμα θέσης και ταχύτητας drone/αντικειμένου
+   - Rviz2 για τα image topic που δημιουργούνται από το models/iris_with_ardupilot/model.sdf
