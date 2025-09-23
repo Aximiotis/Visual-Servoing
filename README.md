@@ -145,7 +145,10 @@ TAKEOFF 10
 ```
 
 Τρεξε σε ξεχωριστό terminal το αρχείο my_package/my_package/twist_publisher1 για το φέρεις το drone σε θέση που βλέπει το αντικείμενο.Τερματισέ το και έπειτα μπορείς να τρέξεις:
-   - Ένα από τα αρχεία στον φάκελο Simulations που αφορούν την αυτόνομη παρακολούθηση και πλοήγηση του αντικειμένουν μέσω της κάμερας του drone 
+   - Ένα από τα αρχεία στον φάκελο Simulations που αφορούν την αυτόνομη παρακολούθηση και πλοήγηση του αντικειμένουν μέσω της κάμερας του drone
+        - Simulation 1 adaptive pid με depth estimation
+        - Simulation 2 Lyapunov LS/sliding control με depth estimation
+        - Simulation 3 Lyapunov LS/sliding control με depth sensor
    - my_package/my_package/object_trajectory για να μετακινήσεις το αντικείμενο
    - my_package/my_package/object_tracking για να παρακολουθείς το σφάλμα θέσης και ταχύτητας drone/αντικειμένου
    - Rviz2 για τα image topic που δημιουργούνται από το models/iris_with_ardupilot/model.sdf
