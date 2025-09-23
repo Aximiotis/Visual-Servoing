@@ -136,4 +136,15 @@ sudo bash ./install_geographiclib_datasets.sh
    ```
 
 ---
+Στο SITL terminal:
 
+```bash
+mode GUIDED
+ARM THROTTLE
+TAKEOFF 10
+```
+
+Τρεξε σε ξεχωριστό terminal το αρχείο my_package/my_package/twist_publisher1 για το φέρεις το drone σε θέση που βλέπει το αντικείμενο.Τερματισέ το και έπειτα μπορείς να τρέξεις:
+   - Ένα από τα αρχεία στον φάκελο Simulations που αφορούν την αυτόνομη παρακολούθηση και πλοήγηση του αντικειμένουν μέσω της κάμερας του drone 
+   - my_package/my_package/object_trajectory για να μετακινήσεις το αντικείμενο
+   - my_package/my_package/object_tracking για να παρακολουθείς το σφάλμα θέσης και ταχύτητας drone/αντικειμένου
